@@ -22,7 +22,7 @@ jobs:
             script: |
                 docker pull ramram27/node-app:latest
                 docker rm -f node-app || true
-                docker run -d --name node-app -p 4000:8080 ramram27/node-app:latest
+                docker run -d --name node-app -p 4000:3000 ramram27/node-app:latest
 
 
 
